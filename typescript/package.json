@@ -1,0 +1,14 @@
+{
+  "name": "lzw",
+  "version": "0.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch test/index",
+    "test": "mocha --watch test/*.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/es6-collections": "^0.5.31",
+    "@types/mocha": "^2.2.48"
+  }
+}
